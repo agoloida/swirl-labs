@@ -1,0 +1,39 @@
+swirl
+swirl()
+swirl()
+my_vector<-1:20
+my_vector
+dim(my_vector)
+length(my_vector)
+dim(my_vector) <- c(4, 5)
+dim(my_vector)
+attitudes(my_vector)
+attitude(my_vector)
+attributes(my_vector)
+my_vector
+class(my_vector)
+my_matrix<-my_vector
+?matrix
+my_matrix2<-matrix(data=1:20, nrow=4, ncol=5)
+identical(my_matrix, my_matrix2)
+patients("Bill", "Gina", "Kelly", "Sean")
+patients<-("Bill", "Gina", "Kelly", "Sean")
+patients<-c("Bill", "Gina", "Kelly", "Sean")
+cbind(patients, my_matrix)
+my_data <- data.frame(patients, my_matrix)
+my_data
+class(my_data_
+)
+class(my_data)
+cnames<-c("patient", "age", "weight", "bp", "rating", "test")
+play()
+dim()
+?colnames
+nxt()
+?colnames
+my_data(colnames(cnames))
+my_data<-colnames(cnames)
+colnames(my_data) <- cnames
+mydata
+my_data
+savehistory("~/swirl-labs/lab7.txt")
