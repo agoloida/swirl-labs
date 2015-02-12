@@ -1,0 +1,39 @@
+libarary("swirl")
+library("swirl")
+swirl()
+swirl()
+data(cars\)
+data(cars\)
+data(cars)
+cars?
+?cars
+head(cars)
+plot(cars)
+?plot()
+?plot
+(x = cars$speed, y = cars$dist)
+plot(x = cars$speed, y = cars$dist)
+plot(y = cars$speed, x = cars$dist)
+plot(y = cars$speed, x = cars$dist, Speed)
+?plot
+plot(y = cars$speed, x = cars$dist, x = "Speed")
+plot(y = cars$speed, x = cars$dist, "Speed")
+plot(y = cars$speed, x = cars$dist, xlab = "Speed")
+plot(x = cars$speed, y = cars$dist, xlab = "Speed")
+plot(x = cars$speed, y = cars$dist, xlab = "Speed", ylab = "Stopping Distance")
+plot(x = cars$speed, y = cars$dist, ylab = "Stopping Distance")
+plot(x = cars$speed, y = cars$dist, xlab = "Speed", ylab = "Stopping Distance")
+plot(cars, main="My Plot")
+plot(cars, sub="My Plot Subtitle")
+?par
+plot(cars, col=2)
+plot(cars, xlim = c(10, 15))
+plot(cars, pch=2)
+mtcars
+data(mtcars)
+head (mtcars)
+boxplot(mtcars)
+?boxplot
+boxplot(formula = mpg ~ cyl, data = mtcars)
+hist(mtcars$mpg)
+savehistory("~/swirl-labs/lab14.txt")
